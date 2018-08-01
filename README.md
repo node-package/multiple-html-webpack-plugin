@@ -12,7 +12,7 @@
 **webpack.config.js**
 ```js
 ...
-const MultipleHtmlWebpackPlugin = require('./multiple-html-webpack-plugin');
+const MultipleHtmlWebpackPlugin = require('multiple-html-webpack-plugin');
 ...
 
 let config = {
