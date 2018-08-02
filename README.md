@@ -31,7 +31,9 @@ module.exports = config;
 ### Options
 
 **plugins** [Array]
+
 Reference to your WebPack `plugins` variable
 
 **test** [string (dir path)]
+
 Path with RegExp for your html files
