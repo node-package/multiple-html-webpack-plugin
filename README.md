@@ -4,7 +4,7 @@
   </a>
   
   <h1>Multiple HTML Webpack Plugin</h1>
-  <p>This Plugin inherited [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin) Plugin</p>
+  <p>This Plugin inherited [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin) Plugin and make it easy to extend, include and replace your html files</p>
 </div>
 
 ### How to use
@@ -27,3 +27,11 @@ new MultipleHtmlWebpackPlugin({
 // Export Module
 module.exports = config;
 ```
+
+### Options
+
+**plugins**
+Reference to your WebPack `plugins` variable
+
+**test**
+Path with RegExp for your html files
